@@ -4,8 +4,6 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "predev": "node scripts/ensure-cv-pdf.mjs",
-    "prebuild": "node scripts/ensure-cv-pdf.mjs",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
