@@ -200,7 +200,6 @@ function contactIcon(kind: 'linkedin' | 'github' | 'email' | 'phone'): string {
 
 function renderApp(): string {
   return `
-  <div class="page-bg" aria-hidden="true"></div>
   <header class="site-header">
     <a class="brand-mark" href="#top">${escapeHtml(profile.name.split(' ')[0])}</a>
     <nav class="site-nav" aria-label="Primary">
