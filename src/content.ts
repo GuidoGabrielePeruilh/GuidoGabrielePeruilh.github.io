@@ -51,8 +51,8 @@ export const profile = {
     en: 'Software Engineer · Backend / Cloud',
   } satisfies LocalizedString,
   headline: {
-    es: 'Bridge negocio ↔ tech en productos de inversión: de la necesidad de mesa y producto al backend en producción.',
-    en: 'Business ↔ tech bridge for investment products: from desk and product needs to production backend.',
+    es: 'Bridge de negocio y tech en productos de inversión: de la necesidad de mesa y producto al backend en producción.',
+    en: 'Business-tech bridge for investment products: from desk and product needs to production backend.',
   } satisfies LocalizedString,
   location: {
     es: 'Ciudad Autónoma de Buenos Aires, Argentina',
@@ -63,12 +63,19 @@ export const profile = {
   phoneHref: 'tel:+541124098679',
   linkedin: 'https://www.linkedin.com/in/guido-gabriele-peruilh-b48792120/',
   github: 'https://github.com/GuidoGabrielePeruilh',
-  cvPdf: '/Guido_Gabriele_Peruilh_CV.pdf',
+  cvPdf: {
+    es: '/Guido_Gabriele_Peruilh_CV_ES.pdf',
+    en: '/Guido_Gabriele_Peruilh_CV_EN.pdf',
+  } satisfies LocalizedString,
+  cvFileName: {
+    es: 'Guido_Gabriele_Peruilh_CV_ES.pdf',
+    en: 'Guido_Gabriele_Peruilh_CV_EN.pdf',
+  } satisfies LocalizedString,
 }
 
 export const summary: LocalizedString = {
   es: 'Software Engineer Ssr. con foco en ownership de backend Go/AWS para productos de inversión bancarios y mercado de capitales. No me limito a entregar código: priorizo entender el negocio para que la solución sea consistente con lo que producto y operaciones realmente necesitan. Vengo de mesa de trading y análisis técnico, así que hablo de igual a igual con POs y negocio, y traduzco eso en microservicios, flujos event-driven y controles operativos.',
-  en: 'Software Engineer (mid-senior) focused on Go/AWS backend ownership for banking investment products and capital markets. I do not stop at shipping code: I prioritize understanding the business so the delivery matches what product and operations actually need. With a trading-desk and technical-analysis background, I work peer-to-peer with POs and business stakeholders, and turn that into microservices, event-driven flows, and operational controls.',
+  en: 'Software Engineer Ssr. focused on Go/AWS backend ownership for banking investment products and capital markets. I do not stop at shipping code: I prioritize understanding the business so the delivery matches what product and operations actually need. With a trading-desk and technical-analysis background, I work peer-to-peer with POs and business stakeholders, and turn that into microservices, event-driven flows, and operational controls.',
 }
 
 export const skillGroups: SkillGroup[] = [
@@ -328,8 +335,8 @@ export const experience: ExperienceCompany[] = [
         period: { es: 'sept. 2023 – sept. 2025', en: 'Sep 2023 – Sep 2025' },
         bullets: [
           {
-            es: 'Puente negocio ↔ tech: relevo con usuarios internos/equipos de negocio y diseño funcional de flujos, tablas y soluciones.',
-            en: 'Business ↔ tech bridge: gather needs with internal users/business teams and produce functional designs for flows, tables, and solutions.',
+            es: 'Puente de negocio y tech: relevo con usuarios internos/equipos de negocio y diseño funcional de flujos, tablas y soluciones.',
+            en: 'Business-tech bridge: gather needs with internal users/business teams and produce functional designs for flows, tables, and solutions.',
           },
           {
             es: 'Diseñé un flujo de conciliación que consulta APIs y bases, cruza app vs backoffice vs mercado y alerta con la diferencia exacta.',
@@ -496,7 +503,7 @@ export const ui = {
   impactLabel: { es: 'Impacto', en: 'Impact' },
   languageLabel: { es: 'Idioma', en: 'Language' },
   footer: {
-    es: 'Backend Go/AWS · bridge negocio ↔ tech · Guido Gabriele Peruilh',
-    en: 'Go/AWS backend · business ↔ tech bridge · Guido Gabriele Peruilh',
+    es: 'Backend Go/AWS · bridge de negocio y tech · Guido Gabriele Peruilh',
+    en: 'Go/AWS backend · business-tech bridge · Guido Gabriele Peruilh',
   },
 } as const

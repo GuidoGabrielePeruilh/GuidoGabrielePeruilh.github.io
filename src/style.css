@@ -176,7 +176,7 @@ a {
   font-family: var(--display);
   font-size: clamp(1.85rem, 4.2vw, 2.75rem);
   font-weight: 800;
-  line-height: 1.3;
+  line-height: 1.45;
   letter-spacing: -0.03em;
   padding-bottom: 0.12em;
   overflow: visible;
@@ -195,10 +195,10 @@ a {
   font-family: var(--display);
   font-size: clamp(1.25rem, 2.8vw, 1.75rem);
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.65;
   letter-spacing: -0.025em;
   color: var(--ink);
-  padding-bottom: 0.18em;
+  padding-bottom: 0.12em;
   overflow: visible;
 }
 
@@ -710,7 +710,13 @@ h2.reveal,
 h3.reveal,
 h4.reveal,
 .hero-headline.reveal,
-.hero-name.reveal {
+.hero-name.reveal,
+h1.reveal.is-visible,
+h2.reveal.is-visible,
+h3.reveal.is-visible,
+h4.reveal.is-visible,
+.hero-headline.reveal.is-visible,
+.hero-name.reveal.is-visible {
   transform: none;
   transition: opacity 560ms ease;
 }

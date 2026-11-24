@@ -226,7 +226,7 @@ function renderApp(): string {
       <p class="hero-headline reveal">${escapeHtml(t(profile.headline, locale))}</p>
       <p class="hero-lead reveal">${escapeHtml(t(summary, locale))}</p>
       <div class="hero-cta reveal">
-        <a class="btn btn-primary" href="${profile.cvPdf}" download="Guido_Gabriele_Peruilh_CV.pdf">${escapeHtml(t(ui.downloadCv, locale))}</a>
+        <a class="btn btn-primary" href="${t(profile.cvPdf, locale)}" download="${t(profile.cvFileName, locale)}">${escapeHtml(t(ui.downloadCv, locale))}</a>
         <a class="btn btn-ghost" href="${profile.linkedin}" target="_blank" rel="noopener noreferrer">${escapeHtml(t(ui.viewLinkedIn, locale))}</a>
       </div>
     </section>
@@ -316,7 +316,7 @@ function renderApp(): string {
             </article>
           </div>
           <div class="contact-download">
-            <a class="btn btn-primary" href="${profile.cvPdf}" download="Guido_Gabriele_Peruilh_CV.pdf">${escapeHtml(t(ui.downloadCv, locale))}</a>
+            <a class="btn btn-primary" href="${t(profile.cvPdf, locale)}" download="${t(profile.cvFileName, locale)}">${escapeHtml(t(ui.downloadCv, locale))}</a>
           </div>
         </div>
       </div>

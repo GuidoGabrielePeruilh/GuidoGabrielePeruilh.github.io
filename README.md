@@ -10,7 +10,7 @@ Repositorio: [GuidoGabrielePeruilh/GuidoGabrielePeruilh.github.io](https://githu
 
 - Página única con resumen, skills, experiencia, educación y contacto
 - Toggle de idioma español / inglés (se guarda en `localStorage`)
-- Descarga del CV en PDF (`public/Guido_Gabriele_Peruilh_CV.pdf`)
+- Descarga del CV en PDF según el idioma activo (`public/Guido_Gabriele_Peruilh_CV_ES.pdf` o `public/Guido_Gabriele_Peruilh_CV_EN.pdf`)
 
 ## Desarrollo local
 
